@@ -1,0 +1,50 @@
+# ---- Python / venv ----
+.venv/
+venv/
+ENV/
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Ultralytics / YOLO outputs ----
+runs/
+wandb/
+logs/
+*.log
+
+# ---- Model artifacts (avoid pushing binaries) ----
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.mlmodel
+*.torchscript
+*.pb
+
+# ---- Datasets / large assets (optional but recommended) ----
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+
+# ---- Build / dist ----
+build/
+dist/
+*.egg-info/
