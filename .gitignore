@@ -18,10 +18,10 @@ Thumbs.db
 .idea/
 
 # ---- Ultralytics / YOLO outputs ----
-runs/
-wandb/
-logs/
-*.log
+# runs/
+# wandb/
+# logs/
+# *.log
 
 # ---- Model artifacts (avoid pushing binaries) ----
 *.pt
