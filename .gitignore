@@ -24,14 +24,14 @@ Thumbs.db
 # *.log
 
 # ---- Model artifacts (avoid pushing binaries) ----
-*.pt
-*.pth
-*.onnx
-*.engine
-*.tflite
-*.mlmodel
-*.torchscript
-*.pb
+# *.pt
+# *.pth
+# *.onnx
+# *.engine
+# *.tflite
+# *.mlmodel
+# *.torchscript
+# *.pb
 
 # ---- Datasets / large assets (optional but recommended) ----
 datasets/
